@@ -1,0 +1,14 @@
+{
+    "name": "admin/1",
+    "authors": [
+        {
+            "name": "vadim",
+            "email": "kalambus-22@mail.ru"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {"": "src/"}
+    }
+}
