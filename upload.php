@@ -16,6 +16,9 @@ if ($type == 'text/html'){
 
 	}
 	else { 
+		echo "<div class=\"container d-flex flex-column h-100\">";
+		echo "<div class=\"row h-100 justify-content-center align-items-center\">";
+		echo "<div class=\"jumbotron text-center m-0 border\">";
 		echo "<h3>Ошибка! Не удалось загрузить файл на сервер!</h3>";
 	}
 }
@@ -27,6 +30,7 @@ else {
 }
 
 echo '<a href="/" class="btn btn-success mt-4">Перейти на главную</a>';
+echo "</div>";
 echo "</div>";
 echo "</div>";
 echo "</div>";
