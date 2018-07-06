@@ -1,8 +1,4 @@
 <?php
-  if (isset($_POST['bilder'])){//если нажата кнопака "построить"
-    //include_once (__DIR__."/chart.php");
-    //echo $res_str."fdgfg";
-  }
   if ($_GET['graph']=='no'){
       echo "<div class=\"alert alert-warning\">не выбран файл для построения графика</div>";
   }
