@@ -12,8 +12,9 @@
                 if(preg_match('/\.(htm)/', $file)){
               ?>
                 <option value="<?php echo $file; ?>">
-                <?php echo $file; }?>
+                <?php echo $file; ?>
                 </option>
+            	<?php } ?>
             <?php } ?>
           </select>
         </div>
@@ -23,8 +24,8 @@
       <hr>
       <form action="upload.php" method="post" enctype="multipart/form-data">
         <div class="form-group">
-          <label for="inputState" class="text-center h5 pt-2 pb-2">Загрузить данные для построения графика</label>
-          <input type="file" class="form-control-file" name="file" id="inputState">
+          <label for="inputGraph" class="text-center h5 pt-2 pb-2">Загрузить данные для построения графика</label>
+          <input type="file" class="form-control-file" name="file" id="inputGraph">
         </div>
         <button type="submit" class="btn btn-primary" id="download" name="download">Загрузить</button>
         <!--span class="text-success ml-2">Добавлен</span-->

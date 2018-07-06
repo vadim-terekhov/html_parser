@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,13 +12,12 @@
     <link href="./src/css/style.css" rel="stylesheet">
   </head>
   <body>
-  	<!--div class="preloader">
+  	<div class="preloader">
   	  <div>
   	    <p>Пожалуйста подождите...</p>
-  	    <p>Если данных много, потребуется немного времени...</p>
-  	    <p>Наберитесь терпения</p>
+  	    <p>Наберитесь терпения!</p>
 	    </div>
-	  </div-->
+	  </div>
 	<div class="container-fluid d-flex flex-column font-weight-normal h-100">
 	  <header class="border-bottom  pt-3 pb-3">
 	     <h2 class="col-7"><a href="/" class="logo"><span class="r">R</span>obo<span class="r">F</span>orex</a></h2>
